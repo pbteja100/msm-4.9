@@ -1310,3 +1310,10 @@ source "arch/arm64/crypto/Kconfig"
 endif
 
 source "lib/Kconfig"
+
+source "arch/arm64/mm/Kconfig"
+
+config PROJECT_GARLIC
+	bool "GARLIC project support"
+	help
+	  This option enables support project name
