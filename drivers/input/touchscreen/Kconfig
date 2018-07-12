@@ -1333,8 +1333,24 @@ config FT_SECURE_TOUCH
 
 	  If unsure, say N.
 
-config TOUCHSCREEN_GT9XX_v28
-	bool "Goodix touchpanel GT9xx_v28 series"
+config TP_TGESTURE
+	bool "TP gesture"
+	default n
+	help
+	  Say Y here if you use TP gesture function.
+
+          If unsure, say N.
+
+config FT5XX_TGESTURE_FUNCTION
+	bool "syna tgesture function"
+	default n
+	help
+	  Say Y here if you use syna TP gesture function.
+
+          If unsure, say N.
+
+config TOUCHSCREEN_GT9XX
+	bool "Goodix touchpanel GT9xx series"
 	depends on I2C
 	help
 	  Say Y here if you have a Goodix GT9xx_v28 touchscreen.
