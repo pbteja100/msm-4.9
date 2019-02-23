@@ -1,3 +1,6 @@
+#ifdef CONFIG_PROJECT_GARLIC
+#include "msmb_isp_n.h"
+#else
 #ifndef __UAPI_MSMB_ISP__
 #define __UAPI_MSMB_ISP__
 
