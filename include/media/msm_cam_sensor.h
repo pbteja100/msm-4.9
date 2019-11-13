@@ -1,4 +1,4 @@
-#ifdef CONFIG_PROJECT_GARLIC
+#if defined(CONFIG_PROJECT_GARLIC) || defined(CONFIG_PROJECT_WIMLITE)
 #include "msm_cam_sensor_n.h"
 #else
 #ifndef __LINUX_MSM_CAM_SENSOR_H

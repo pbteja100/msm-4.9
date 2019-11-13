@@ -1,4 +1,4 @@
-#ifdef CONFIG_PROJECT_GARLIC
+#if defined(CONFIG_PROJECT_GARLIC) || defined(CONFIG_PROJECT_WIMLITE)
 #include "msmb_isp_n.h"
 #else
 #ifndef __UAPI_MSMB_ISP__
@@ -1119,3 +1119,4 @@ enum msm_isp_ioctl_cmd_code {
 	struct msm_vfe_dual_lpm_mode)
 
 #endif /* __MSMB_ISP__ */
+

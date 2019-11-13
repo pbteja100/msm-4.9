@@ -9,7 +9,7 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  */
-#ifdef CONFIG_PROJECT_GARLIC
+#if defined(CONFIG_PROJECT_GARLIC) || defined(CONFIG_PROJECT_WIMLITE)
 #include "msmb_isp_n.h"
 #else
 #ifndef __MSMB_ISP__
